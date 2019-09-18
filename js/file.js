@@ -1,6 +1,6 @@
 var resultado = document.getElementById('resultado');
 
-function tablaMultplicar(){   //!función mal escrita: falta la 'i' en 'Multiplicar'
+function tablaMultiplicar(){   //!función mal escrita: falta la 'i' en 'Multiplicar'
   var n = document.getElementById('dato').value;
   var m;
   var tabla = '';
@@ -17,7 +17,7 @@ function tablaMultplicar(){   //!función mal escrita: falta la 'i' en 'Multipli
       tabla += '<td>' + k + '</td>';
     }
     tabla += '</tr>';
-    for (var i=n;i<=n;i++) {
+    for (var i=n;i<=m;i++) {
       tabla += '<tr><td>'+ i +'</td>';
       for (var j=1; j<=10;j++){
           tabla += '<td data-n="'+ i +'x'+ j +'=' + (i*j) +'">' + (i*j) + '</td>';
